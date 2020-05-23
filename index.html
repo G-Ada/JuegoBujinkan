@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" name="text/css" href="estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+      <div class="titulo">
+        <h1>Guerra ninja</h1>
+        <h3>Bujinkan</h3>
+    </div>
+    <div class="explicacion">
+        <p class="reglas">
+            Reúne a tus compañeros ninjas para cumplir esta misión! Deben llegar al castillo lo más pronto posible. 
+            Por turnos, avanzarán la cantidad de casilleros que indique el dado pero si no logras cumplir con el entrenamiento
+            o con el desafío (escudo), tendrás que volver a tu posición anterior.
+            ¿Quién será el primer ninja en llegar?
+        </p>
+    </div>
+  </header>
+  <section id="juego">
+    <section id="panel">
+      <div class="jugadores">
+        <h2>Ninjas</h2>
+        <div class="contenedorFichas">
+          <img id="azul" class="jugador azul" src="./imagenes/ninja-azul.png" alt="jugador azul" />
+          <img id="rojo" class="jugador rojo" src="./imagenes/ninja-rojo.png" alt="jugador rojo" />
+          <img id="amarillo" class='jugador amarillo' src="./imagenes/ninja-amarillo.png" alt="jugador amarillo" />
+          <img id="negro" class='jugador negro' src="./imagenes/ninja-negro.png" alt="jugador negro" />
+          <img id="violeta" class='jugador violeta' src="./imagenes/ninja-violeta.png" alt="jugador violeta" />
+          <img id="rosa" class='jugador rosa' src="./imagenes/ninja-rosa.png" alt="jugador rosa" />
+          <img id="verde" class='jugador verde' src="./imagenes/ninja-verde.png" alt="jugador verde" />
+          <img id="celeste" class='jugador celeste' src="./imagenes/ninja-celete.png" alt="jugador celeste" />
+        </div>
+      </div>
+      <section class="dado">
+        <h2>Dado</h2>
+        <div class="container">
+        <div id="cube">
+          <div class="front">
+            <span class="dot dot1"></span>
+          </div>
+          <div class="back">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+          </div>
+          <div class="right">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+          </div>
+          <div class="left">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+          </div>
+          <div class="top">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+            <span class="dot dot5"></span>
+          </div>
+          <div class="bottom">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+            <span class="dot dot5"></span>
+            <span class="dot dot6"></span>
+          </div>
+        </div>
+        </div>
+      </section>
+      <div class="ganadores">
+        <h2>Ganadores</h2>
+        <div class="podio">
+          <img class="puestos" src="./imagenes/podio.png" alt="podio" />
+        </div>
+      </div>
+    </section>
+    <section id="tablero">
+      <img class="tablero" src="./imagenes/tablero.png" alt="tablero" />
+    </section>
+  </section>
+  <script src="funciones.js"></script>
+</body>
+
+</html>
